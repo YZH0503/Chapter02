@@ -1,0 +1,21 @@
+/*
+Filename:T2_29.cpp
+Author:  Zehong Yang
+E-mail:  2579510685@qq.com
+Date:    Mar 12th, 2022
+College: School of Computer Science and InformationEngineering
+Function:Find the square and cube of a number
+*/
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int n,squ,code;
+    cin>>n;
+    squ=n*n;
+    code=n*n*n;
+    code<<squ<<" "<<code<<endl;
+    return 0;
+}
