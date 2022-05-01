@@ -1,0 +1,23 @@
+Filename:T2_24.cpp
+Author:  Zehong Yang
+E-mail:  2579510685@qq.com
+Date:    Mar 12th, 2022
+College: School of Computer Science and InformationEngineering
+Function:奇数和偶数
+*/
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int n;
+    cin>>n;
+    if(0==n%2)
+    {
+        cout<<"偶数"<<endl;
+    }
+    else
+        cout<<"奇数"<<endl;
+    return 0;
+}
