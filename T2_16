@@ -1,0 +1,25 @@
+/*
+Filename:T2_16.cpp
+Author:  Zehong Yang(ÑîÔóºê£©
+E-mail:  2579510685@qq.com
+Date:    Mar 12th, 2022
+College: School of Computer Science and InformationEngineering
+Function:Just output the sum, product, difference and quotient of two numbers
+*/
+#include <iostream>ss
+
+using namespace std;
+
+int main()
+{
+   int a,b,c,d,e,f;
+   cout<<"please output 2 numbers";
+   cin>>a>>b;
+   c=a+b;
+   d=a*b;
+   e=a-b;
+   f=a/b;
+   cout<<"the sum is "<<c<<";the product is "<<d<<";the difference is "<<e<<";the quotient is "<<f<<endl;
+    return 0;
+}
+
