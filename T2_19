@@ -1,0 +1,29 @@
+/*
+Filename:T2_19.cpp
+Author:  Zehong Yang
+E-mail:  2579510685@qq.com
+Date:    Mar 12th, 2022
+College: School of Computer Science and InformationEngineering
+Function:Just output the sum, product, difference and quotient of two numbers
+*/
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout << "Input three different integers" << endl;
+    int a,b,c,Sum,Average,Product,Smallest,Largest;
+    cin>>a>>b>>c;
+    Sum=a+b+c;
+    Product=a*b*c;
+    Average=Product/3;
+    Smallest=min(min(a,b),c);
+    Largest=max(max(a,b),c);
+    cout<<"Sum is"<<Sum<<endl;
+    cout<<"Product is "<<Product<<endl;
+    cout<<"Average is "<<Average<<endl;
+    cout<<"Smallest is "<<Smallest<<endl;
+    cout<<"Largest is "<<Largest<<endl;
+    return 0;
+}
