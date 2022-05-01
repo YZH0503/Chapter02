@@ -1,0 +1,22 @@
+/*
+Filename:T2_17.cpp
+Author:  Zehong Yang(ÑîÔóºê£©
+E-mail:  2579510685@qq.com
+Date:    Mar 12th, 2022
+College: School of Computer Science and InformationEngineering
+Function:Just output 4 numbers
+*/
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout <<"1 2 3 4";
+    cout <<"1 "<<"2 "<<"3 "<<"4";
+    cout <<"1 ";
+    cout <<"2 ";
+    cout <<"3 ";
+    cout <<"4";
+    return 0;
+}
