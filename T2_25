@@ -1,0 +1,28 @@
+/*
+Filename:T2_25.cpp
+Author:  Zehong Yang
+E-mail:  2579510685@qq.com
+Date:    Mar 12th, 2022
+College: School of Computer Science and InformationEngineering
+Function:Judge whether the first number is a multiple of the second number
+*/
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a,b,c;
+    cin>>a>>b;
+    c=a%b;
+    if(c==0)
+    {
+        cout<<"yes"<<endl;
+
+    }
+    else
+    {
+        cout<<"no"<<endl;
+    }
+    return 0;
+}
