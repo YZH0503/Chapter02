@@ -1,0 +1,27 @@
+/*
+Filename:T2_18.cpp
+Author:  Zehong Yang(ÑîÔóºê£©
+E-mail:  2579510685@qq.com
+Date:    Mar 12th, 2022
+College: School of Computer Science and Information Engineering
+Function:Output the larger of the two numbers
+*/
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+
+    int a,b;
+    cout<<"please input 2 numbers";
+    cin>>a>>b;
+    if(a>b){cout<<a<<"is large";}
+      else if(a<b){cout<<b<<"is large";}
+        else if(a==b){cout<<"these numbers are equal";}
+
+    return 0;
+}
+
+
+
